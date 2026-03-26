@@ -101,4 +101,5 @@ prevBtn.addEventListener("click",()=>{ if(sayfa>1){ sayfa--; listele(); }});
 nextBtn.addEventListener("click",()=>{ if(sayfa<toplamSayfa){ sayfa++; listele(); }});
 
 
+
 listele();
